@@ -1,0 +1,12 @@
+.DS_Store
+*.hm-backup-*
+
+# Local client state and generated plugin data
+.agents/
+.codex/
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/

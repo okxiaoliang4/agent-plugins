@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic 3D Sites"
+  short_description: "Direct distinctive scroll-driven WebGL experiences"
+  default_prompt: "Use $cinematic-3d-sites to direct and build a distinctive cinematic 3D website from this brief."
