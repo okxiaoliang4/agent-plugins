@@ -1,8 +1,12 @@
 .DS_Store
 *.hm-backup-*
 
-# Local client state and generated plugin data
-.agents/
+# Local client state and generated plugin data. Keep the repository marketplace
+# manifest below .agents/plugins tracked.
+.agents/*
+!.agents/
+!.agents/plugins/
+!.agents/plugins/marketplace.json
 .codex/
 node_modules/
 __pycache__/

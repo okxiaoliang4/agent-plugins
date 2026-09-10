@@ -1,0 +1,20 @@
+{
+  "name": "jelf-agent-plugins",
+  "interface": {
+    "displayName": "Jelf Agent Plugins"
+  },
+  "plugins": [
+    {
+      "name": "jelf-agent-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

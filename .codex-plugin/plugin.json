@@ -1,0 +1,33 @@
+{
+  "name": "jelf-agent-skills",
+  "version": "0.1.0",
+  "description": "Personal collection of reusable agent skills packaged for Codex.",
+  "author": {
+    "name": "Jelf",
+    "url": "https://github.com/okxiaoliang4"
+  },
+  "homepage": "https://github.com/okxiaoliang4/agent-plugins",
+  "repository": "https://github.com/okxiaoliang4/agent-plugins",
+  "keywords": [
+    "agent-skills",
+    "workflow",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Jelf Agent Skills",
+    "shortDescription": "A personal collection of reusable agent skills.",
+    "longDescription": "A private, skills-only Codex plugin containing reusable workflows, references, scripts, and assets.",
+    "developerName": "Jelf",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Help me choose the right skill for this task.",
+      "Use the repository skills to plan this work.",
+      "Review this change with the available skills."
+    ],
+    "brandColor": "#111827"
+  }
+}
